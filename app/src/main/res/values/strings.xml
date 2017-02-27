@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Rate That Record</string>
+    <string name="fater_lee">Play Fater Lee</string>
+    <string name="gillicudy">Play Gillicudy</string>
+    <string name="podington">Play Podington Bear</string>
+    <string name="ratefater">Rank Fader Lee</string>
+    <string name="rategillicudy">Rank Gillicudy</string>
+    <string name="ratepod">Rank Podington Bear</string>
+    <string name="results">Your song ratings have been recorded. Thank you for your time.</string>
+    <string name="songresults">Your results are:</string>
+</resources>

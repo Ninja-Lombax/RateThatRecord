@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.androidbootcamp.ratethatrecord.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        app:srcCompat="@drawable/dance"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="240sp" />
+
+
+
+    <Button
+        android:text="@string/rategillicudy"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRateGillicudy"
+        android:layout_alignBaseline="@+id/btnGillicudy"
+        android:layout_alignBottom="@+id/btnGillicudy"
+        android:layout_toRightOf="@+id/btnFater"
+        android:layout_toEndOf="@+id/btnFater" />
+
+    <Button
+        android:text="@string/fater_lee"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFater"
+        android:textAlignment="center"
+        android:layout_marginTop="22dp"
+        android:layout_width="150sp"
+        android:layout_below="@+id/imageView"
+        android:layout_toLeftOf="@+id/btnRateFater"
+        android:layout_toStartOf="@+id/btnRateFater"
+        android:layout_marginRight="9dp"
+        android:layout_marginEnd="9dp" />
+
+    <Button
+        android:text="@string/gillicudy"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGillicudy"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btnFater"
+        android:layout_alignLeft="@+id/btnFater"
+        android:layout_alignStart="@+id/btnFater" />
+
+    <Button
+        android:text="@string/ratefater"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRateFater"
+        android:layout_alignBaseline="@+id/btnFater"
+        android:layout_alignBottom="@+id/btnFater"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="7dp"
+        android:layout_marginEnd="7dp" />
+
+    <Button
+        android:text="@string/podington"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPodington"
+        android:textAlignment="center"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/btnGillicudy"
+        android:layout_alignLeft="@+id/btnGillicudy"
+        android:layout_alignStart="@+id/btnGillicudy" />
+
+    <Button
+        android:text="@string/ratepod"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRatePodington"
+        android:layout_alignBaseline="@+id/btnPodington"
+        android:layout_alignBottom="@+id/btnPodington"
+        android:layout_alignLeft="@+id/btnRateGillicudy"
+        android:layout_alignStart="@+id/btnRateGillicudy" />
+
+</RelativeLayout>
